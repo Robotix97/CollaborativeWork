@@ -1,10 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.flatly.css">
     <meta charset="UTF-8">
     <title>Document</title>
 </head>
+
+
 <body>
-    
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+	  <a class="navbar-brand" href="index.html">Home</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarColor01">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item">
+			<a class="nav-link" href="AI.html">AI</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="entertainment.html">Entertainment</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="networking.html">Mobile Networking</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="iot.html">Internet of Things</a>
+		  </li>
+		</ul>
+	  </div>
+</nav>
+	
+
+
+
+<div class="container">
+<div class="jumbotron">
+            <h1 class="display-3" style="align: center">Areas of Computing</h1>
+            <p class="lead">This page is dedicated to highlighting areas of Computer Science that provide a positive effect on society.</p>
+            <hr class="my-3">
+            <p><p>
+        </div>
+
+<div class="card-deck">
+<a href="#aiModal" data-toggle="modal" class="card text-white bg-secondary mb-3" style="max-width: 35rem;">
+  <div class="card-header">Topic</div>
+  <div class="card-body">
+    <h4 class="card-title">Artificial Intelligence</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <div class="card-footer">
+      <small>Author: Li Yuhao</small>
+    </div>
+</a>
+<a href="#entertainmentModal" data-toggle="modal" class="card text-white bg-secondary mb-3" style="max-width: 35rem;">
+  <div class="card-header">Topic</div>
+  <div class="card-body">
+    <h4 class="card-title">Entertainment</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <div class="card-footer">
+      <small>Author: Charlie Knapp</small>
+    </div>
+</a>
+</div>
+<div class="card-deck">
+<a href="#mnModal" data-toggle="modal" class="card text-white bg-secondary mb-3" style="max-width: 35rem;">
+  <div class="card-header">Topic</div>
+  <div class="card-body">
+    <h4 class="card-title">Mobile Networking</h4>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <div class="card-footer">
+      <small>Author: Jingwei Fan</small>
+    </div>
+</a>
+<a href="#iotModal" data-toggle="modal" class="card text-white bg-secondary mb-3" style="max-width: 35rem;">
+  <div class="card-header">Topic</div>
+  <div class="card-body">
+    <h4 class="card-title">Internet of Things</h4>
+    <p class="card-text">This article is about how IoT is integrated into every aspect of our lives, helping to automate our lives and 
+	make them easier without us knowing.</p>
+  </div>
+  <div class="card-footer">
+      <small>Author: Mark Liesicke</small>
+    </div>
+</a>
+</div>
+
+
+<!-- AI -->
+<div class="modal fade" id="aiModal" tabindex="-1" role="dialog" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Artificial Intelligence</h5>
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PLEASE ENTER FIRST PARAGRAPH OF ARTICLE HERE
+      </div>
+      <div class="modal-footer">
+		<button type="button" class="btn btn-primary" onclick="window.location.href='ai.html'">Continue Reading</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Entertainment -->
+<div class="modal fade" id="entertainmentModal" tabindex="-1" role="dialog" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Entertainment</h5>
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PLEASE ENTER FIRST PARAGRAPH OF ARTICLE HERE
+      </div>
+      <div class="modal-footer">
+		<button type="button" class="btn btn-primary" onclick="window.location.href='entertainment.html'">Continue Reading</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Mobile Networking -->
+<div class="modal fade" id="mnModal" tabindex="-1" role="dialog" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Mobile Networking</h5>
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PLEASE ENTER FIRST PARAGRAPH OF ARTICLE HERE
+      </div>
+      <div class="modal-footer">
+		<button type="button" class="btn btn-primary" onclick="window.location.href='networking.html'">Continue Reading</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- IOT -->
+<div class="modal fade" id="iotModal" tabindex="-1" role="dialog" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Internet of Things</h5>
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        PLEASE ENTER FIRST PARAGRAPH OF ARTICLE HERE
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="window.location.href='iot.html'">Continue Reading</button>
+		<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="row">
+<div class="col-md-10">
+</div>
+<div class="col-md-2" style="text-align: right">
+<p>Author(s): <a href="#">Mark Liesicke</a>
+              <a href="#">Jingwei Fan</a></p>
+</div>
+</div>
+
+<footer class="page-footer font-small pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <div class="col-md-5 mt-md-0 mt-3">
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-6 mb-md-0 mb-3">
+        <h5 class="font-weight-bold">Author Biographies</h5>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3">Theme from: 
+    <a href="https://bootswatch.com/"> Bootswatch.com</a>
+  </div>
+</footer>
+
 </body>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
