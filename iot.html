@@ -97,14 +97,15 @@ not interact, improving automation and hence improving most aspects of our lives
 <hr class="my-4">
 <h3 class="mt-3"><span class="font-weight-bold">Implementations</span></h3>
 <div class="list-group">
-  <a href="#exampleModal" data-toggle="modal" class="list-group-item list-group-item-action flex-column align-items-start active">
+  <a href="#agricultureModal" data-toggle="modal" class="list-group-item list-group-item-action flex-column align-items-start active">
     <div class="d-flex w-100 justify-content-between">
       <h5 class="mb-1">Agriculture</h5>
     </div>
     <p class="mb-1">Agriculture is a key part of society, however many parts of it can easily be automated ensuring farmers can produce more crop each year.</p>
     <small>Read on</small>
   </a>
-  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+  
+  <a href="#smartDevicesModal" data-toggle="modal" class="list-group-item list-group-item-action flex-column align-items-start">
     <div class="d-flex w-100 justify-content-between">
       <h5 class="mb-1">Smart Devices</h5>
     </div>
@@ -115,17 +116,68 @@ not interact, improving automation and hence improving most aspects of our lives
 
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" >
+<div class="modal fade" id="agricultureModal" tabindex="-1" role="dialog" >
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Agriculture</h5>
+        <button type="button" class="close" data-dismiss="modal">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">	
+	   <img src="img/iot_agriculture_01.jpg" class="img-thumbnail">
+        <p>Agriculture is a key part of society, however many parts of it can easily be automated ensuring farmers can produce more crop each year.</p>
+		<p class="modal-dialog">“Automation is cost cutting by tightening the corners and not cutting them.” – <span class="font-weight-bold">Haresh Sippy</span></p>
+		<p>Each year farmers spend vast amounts of time watering crops, maintaining humidity in greenhouses and ensuring conditions are perfect for growth.
+		This is time that can be ill-afforded, as their time is better spent working on the crop itself, or maintaining the machines that do so.</p>
+		<p>Farmers can now use IoT devices to provide:</p>
+		<ul>
+		<li>Precision Farming - using sensors to detect temperature and humidity, and using this information to control
+		a VRI (Variable Rate Irigation) and heating system. This allows the maximum profitability to be achieved from each crop, by maintaining them in
+		precisely the correct conditions.</li>
+		<li>Crop Management - Drones can be used to do large scale crop management, over a whole field. This can be done via arial or ground drones,
+		fit for purpose. This means the farmer can easily check on crop health, growth and many individual factors about the crop's condition. This massively
+		reduces the time that the user must devote to travelling across a field daily when it can be automated by a set of devices.</li>
+		<li>Livestock Management - By using a mesh of nodes (each animal), the farmer can individually distinguish each animal, and their conditions.
+		This is useful as if an animal ever becomes diseased, it can be distanced from the herd/flock to maintain the good health of the rest of the livestock.
+		Furthermore, data can be stored about each animal such as it's age or weight, ensuring it is in optimal health.</li>
+		</ul>
+		<p>This massive increase in profitability through IoT and reduction in time loss to menial tasks means that a single person can now control
+		a much greater area and provide more produce per crop.</p>
+	  </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="smartDevicesModal" tabindex="-1" role="dialog" >
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Smart Devices</h5>
         <button type="button" class="close" data-dismiss="modal">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+	   <img src="img/iot_smartdevices_01.jpg" class="img-thumbnail">
+        <p>Smart devices have become a part of everyday life now, and they all need to be able to communicate with each other to function effectively.</p>
+		
+		<p class="modal-dialog">“The Internet will disappear. There will be so many IP addresses, so many devices, sensors, things that you are wearing,
+		things that you are interacting with, that you won’t even sense it. It will be part of your presence all the time. Imagine you walk into a room,
+		and the room is dynamic. And with your permission and all of that,
+		you are interacting with the things going on in the room.” – <span class="font-weight-bold">Eric Schmidt</span></p>
+		
+		<p>Modern life has become dependant upon our inter-connectivity with each other, and the same is true for devices. Without inter-connectivity,
+		many modern features we take for granted disappear, such as wireless devices.</p>
+		<p>Smart devices are just another thing we are beginning to take for granted, as IoT allows for our fridges to text us when we're out of milk,
+		they allow for the garage door opening from your phone leading to the heating turning on. They optimise our day to day lives and effectively
+		remove insignificant tasks allowing for a greater deal of comfort as we live our lives.</p>
+		<p>Smart devices are now being integrated into the clothes we wear, allowing for in built headphones and other niche products to become
+		more popular and affordable, improving the efficiency of our day to day lives.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -134,7 +186,6 @@ not interact, improving automation and hence improving most aspects of our lives
     </div>
   </div>
 </div>
-
 
 
 <div class="row">
